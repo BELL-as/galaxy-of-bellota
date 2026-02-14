@@ -4,31 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galaxy of Bellota</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background-color: #000;
+        }
+        .galaxy { 
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle, #ff69b4, #1a0036);
+            animation: galaxy-animation 20s infinite linear;
+        }
+        @keyframes galaxy-animation {
+            from { background-position: 0 0; }
+            to { background-position: 100% 100%; }
+        }
+        .text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 5em;
+            color: white;
+            font-family: 'Arial', sans-serif;
+            text-shadow: 0 0 10px rgba(255, 0, 255, 0.5);
+        }
+        .message {
+            position: absolute;
+            color: white;
+            font-family: 'Arial', sans-serif;
+            animation: float 5s ease-in-out infinite;
+            opacity: 0;
+        }
+        @keyframes float {
+            0% { transform: translateY(0); opacity: 0; }
+            50% { opacity: 1; }
+            100% { transform: translateY(-100%); opacity: 0; }
+        }
+    </style>
 </head>
 <body>
-    <div id="controls">
-        <h2>Interactive Controls Panel</h2>
-        <label for="heartCustomization">Heart Customization:</label>
-        <input type="color" id="heartCustomization" name="heartCustomization">
-
-        <label for="colorPicker">Color Picker:</label>
-        <input type="color" id="colorPicker" name="colorPicker">
-
-        <label for="speedControls">Speed Controls:</label>
-        <input type="range" id="speedControls" name="speedControls" min="1" max="10" value="5">
-
-        <label for="particleEffects">Particle Effects:</label>
-        <input type="checkbox" id="particleEffects" name="particleEffects">
-        <label for="particleEffects">Enable Particle Effects</label>
-
-        <button id="screenshotBtn">Take Screenshot</button>
-    </div>
-
-    <div id="galaxyVisualization">
-        <!-- Galaxy visualization canvas or other elements will go here -->
-    </div>
-
-    <script src="script.js"></script>
+    <div class="galaxy"></div>
+    <div class="text">Bellota</div>
+    <div class="message" style="top: 10%; left: 50%; transform: translateX(-50%);">José loves you, my star!</div>
+    <div class="message" style="top: 20%; left: 40%; transform: translate(-50%, -50%); animation-delay: 1s;">You light up my universe!</div>
+    <div class="message" style="top: 30%; left: 60%; transform: translate(-50%, -50%); animation-delay: 2s;">Forever in my heart!</div>
+    <div class="message" style="top: 40%; left: 50%; transform: translate(-50%, -50%); animation-delay: 3s;">Your smile is my sunrise!</div>
+    <div class="message" style="top: 50%; left: 40%; transform: translate(-50%, -50%); animation-delay: 4s;">Together, we are infinite!</div>
+    <script>
+        const messages = document.querySelectorAll('.message');
+        messages.forEach((msg, index) => {
+            setTimeout(() => {
+                msg.style.opacity = 1;
+                msg.style.animationDelay = `${index * 1.5}s`;
+            }, index * 1500);
+        });
+        
+    </script>
 </body>
 </html>
