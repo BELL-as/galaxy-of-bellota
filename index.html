@@ -1,1 +1,34 @@
-<!DOCTYPE html>\n<html lang="en">\n<head>\n    <meta charset="UTF-8">\n    <meta name="viewport" content="width=device-width, initial-scale=1.0">\n    <title>Heart Galaxy Visualization</title>\n    <style>\n        body {\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            height: 100vh;\n            background-color: #000;\n            color: #fff;\n            font-family: Arial, sans-serif;\n        }\n        .heart {\n            position: relative;\n            width: 100px;\n            height: 100px;\n            background: red;\n            transform: rotate(-45deg);\n        }\n        .heart::before, .heart::after {\n            content: '';\n            position: absolute;\n            width: 100px;\n            height: 100px;\n            background: red;\n            border-radius: 50%;\n        }\n        .heart::before {\n            top: -50px;\n            left: 0;\n        }\n        .heart::after {\n            left: 50px;\n            top: 0;\n        }\n    </style>\n</head>\n<body>\n    <div class="heart"></div>\n</body>\n</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galaxy of Bellota</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="controls">
+        <h2>Interactive Controls Panel</h2>
+        <label for="heartCustomization">Heart Customization:</label>
+        <input type="color" id="heartCustomization" name="heartCustomization">
+
+        <label for="colorPicker">Color Picker:</label>
+        <input type="color" id="colorPicker" name="colorPicker">
+
+        <label for="speedControls">Speed Controls:</label>
+        <input type="range" id="speedControls" name="speedControls" min="1" max="10" value="5">
+
+        <label for="particleEffects">Particle Effects:</label>
+        <input type="checkbox" id="particleEffects" name="particleEffects">
+        <label for="particleEffects">Enable Particle Effects</label>
+
+        <button id="screenshotBtn">Take Screenshot</button>
+    </div>
+
+    <div id="galaxyVisualization">
+        <!-- Galaxy visualization canvas or other elements will go here -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
