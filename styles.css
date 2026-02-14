@@ -1,0 +1,24 @@
+.galaxy {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+@media (max-width: 768px) {
+    .galaxy {
+        padding: 10px;
+    }
+    .galaxy h1 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .galaxy h1 {
+        font-size: 20px;
+    }
+    .galaxy p {
+        font-size: 14px;
+    }
+}
