@@ -1,228 +1,27 @@
-aLink
-: 
-""
-accessKey
-: 
-""
-attributeStyleMap
-: 
-StylePropertyMap
-size
-: 
-0
-[[Prototype]]
-: 
-StylePropertyMap
-attributes
-: 
-NamedNodeMap
-length
-: 
-0
-[[Prototype]]
-: 
-NamedNodeMap
-autocapitalize
-: 
-""
-autofocus
-: 
-false
-background
-: 
-""
-baseURI
-: 
-"https://baque2005.github.io/public-files/2025/11/f4ce8d64-132f-4e9e-894d-0cfa32187143.html"
-bgColor
-: 
-""
-childElementCount
-: 
-39
-childNodes
-: 
-NodeList(51) [text, canvas.webgl, text, div.instructions, text, div.credits, text, comment, text, div#menuButton.menu-button, text, div#overlay.overlay, text, div#configPanel.config-panel, text, script, text, audio#bg-music, text, script, text, div.heart, div.heart, div.heart, div.heart, div.heart, div.heart, div.heart, div.heart, div.heart, div.heart, div.heart, div.heart, div.heart, div.heart, div.heart, div.heart, div.heart, div.heart, div.heart, div.heart, div.heart, div.heart, div.heart, div.heart, div.heart, div.heart, div.heart, div.heart, div.heart, div.heart]
-children
-: 
-HTMLCollection(39) [canvas.webgl, div.instructions, div.credits, div#menuButton.menu-button, div#overlay.overlay, div#configPanel.config-panel, script, audio#bg-music, script, div.heart, div.heart, div.heart, div.heart, div.heart, div.heart, div.heart, div.heart, div.heart, div.heart, div.heart, div.heart, div.heart, div.heart, div.heart, div.heart, div.heart, div.heart, div.heart, div.heart, div.heart, div.heart, div.heart, div.heart, div.heart, div.heart, div.heart, div.heart, div.heart, div.heart, menuButton: div#menuButton.menu-button, overlay: div#overlay.overlay, configPanel: div#configPanel.config-panel, bg-music: audio#bg-music]
-classList
-: 
-DOMTokenList [value: '']
-className
-: 
-""
-clientHeight
-: 
-668
-clientLeft
-: 
-0
-clientTop
-: 
-0
-clientWidth
-: 
-717
-contentEditable
-: 
-"inherit"
-currentCSSZoom
-: 
-1
-dataset
-: 
-DOMStringMap {}
-dir
-: 
-""
-draggable
-: 
-false
-elementTiming
-: 
-""
-enterKeyHint
-: 
-""
-firstChild
-: 
-text
-firstElementChild
-: 
-canvas.webgl
-hidden
-: 
-false
-id
-: 
-""
-inert
-: 
-false
-innerHTML
-: 
-"\n    <canvas class=\"webgl\" width=\"1075\" heig
-innerText
-: 
-"Te Amo Muchote\nFernando\nConfiguración\n✕\nCorazones Orbitales\nTamaño\nVelocidad de rotación\nColor principal\nCorazón Central\nTamaño\nFondo Estelar\nBrillo de estrellas\nOpciones Avanzadas\nRotación automática\nOpacidad de textos románticos\nMR\n\nTe Amo Muchote Mi Niña Hermosa\n\nAnd\n\n😘\n💜\n😘\n❇\n👸\n👑\n👸\n👑\n😘\n💜\n️T\n💛\n💜\n❇\n💜\n💜\n💛\n💜\n😘\n❇\n💛\n😘\n😘\n️T\n😘\n🌷\n👸\n🌷\n😘\n🌷"
-inputMode
-: 
-""
-isConnected
-: 
-true
-isContentEditable
-: 
-false
-lang
-: 
-""
-lastChild
-: 
-div.heart
-lastElementChild
-: 
-div.heart
-link
-: 
-""
-localName
-: 
-"body"
-namespaceURI
-: 
-"http://www.w3.org/1999/xhtml"
-nodeName
-: 
-"BODY"
-nodeType
-: 
-1
-nonce
-: 
-""
-offsetHeight
-: 
-668
-offsetLeft
-: 
-0
-offsetTop
-: 
-0
-offsetWidth
-: 
-717
-outerHTML
-: 
-"<body>\n    <canvas class=\"webgl\" width=\"1075\
-outerText
-: 
-"Te Amo Muchote\nFernando\nConfiguración\n✕\nCorazones Orbitales\nTamaño\nVelocidad de rotación\nColor principal\nCorazón Central\nTamaño\nFondo Estelar\nBrillo de estrellas\nOpciones Avanzadas\nRotación automática\nOpacidad de textos románticos\nMR\n\nTe Amo Muchote Mi Niña Hermosa\n\nAnd\n\n😘\n💜\n😘\n❇\n👸\n👑\n👸\n👑\n😘\n💜\n️T\n💛\n💜\n❇\n💜\n💜\n💛\n💜\n😘\n❇\n💛\n😘\n😘\n️T\n😘\n🌷\n👸\n🌷\n😘\n🌷"
-ownerDocument
-: 
-document
-parentElement
-: 
-html
-parentNode
-: 
-html
-part
-: 
-DOMTokenList [value: '']
-previousElementSibling
-: 
-head
-previousSibling
-: 
-text
-scrollHeight
-: 
-668
-scrollLeft
-: 
-0
-scrollTop
-: 
-0
-scrollWidth
-: 
-717
-slot
-: 
-""
-spellcheck
-: 
-true
-style
-: 
-CSSStyleDeclaration {accentColor: '', additiveSymbols: '', alignContent: '', alignItems: '', alignSelf: '', …}
-tabIndex
-: 
--1
-tagName
-: 
-"BODY"
-text
-: 
-""
-textContent
-: 
-"\n    \n    Te Amo Muchote\n    Fernando\n    \n 
-title
-: 
-""
-translate
-: 
-true
-vLink
-: 
-""
-virtualKeyboardPolicy
-: 
-""
-writingSuggestions
-: 
-"true"
+# Heart Galaxy Project
+
+The Heart Galaxy project is an initiative to explore and document the characteristics of the heart galaxy, focusing on its structure, composition, and potential for supporting life.
+
+## Objectives
+- Investigate the main components of the heart galaxy
+- Study the celestial bodies within the galaxy
+- Analyze the potential for habitability
+
+## Features
+- **Astronomical Data**: Collection and analysis of data from various sources.
+- **Visualization Tools**: Tools for visualizing the galaxy's structure.
+- **Research Collaboration**: Collaborate with astronomers and scientists.
+
+## Getting Started
+1. Clone the repository: `git clone https://github.com/BELL-as/galaxy-of-bellota`
+2. Install necessary dependencies: `npm install`
+3. Run the application: `npm start`
+
+## Contributing
+Contributions are welcome! Please read through our [contributing guidelines](CONTRIBUTING.md) for more information.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+For questions or support, please contact: [your-email@example.com]
